@@ -18,10 +18,10 @@ classes.
 
 * **folder_names**: list of names of the folders corresponding to the classes (one for each class).
 
-* **keys:** list containing the keys that the user will press to label images (one for each class). The i-th key 
-corresponds to the i-th label in ```folder_names```.
+* **keys:** list containing the keys that the user will press to label images (one for each class). The *i-th* key 
+corresponds to the *i-th* label in ```folder_names```.
 
-* **delete**: flag indicating whether or not to delete original images. Its default value is *False*.
+* **delete**: flag indicating whether or not to delete the original images. Its default value is *False*.
 
 * **screen_factor**: percentage of the screen occupied by images that are too big. The default value is 0.9.
 
@@ -29,8 +29,7 @@ corresponds to the i-th label in ```folder_names```.
 
 ### Example
 
-Suppose we have a small dataset of 4 cat, 4 dog and 4 duck images. They are all in the ```animal_dataset/images``` 
-folder. Below we show our image dataset folder structure.
+Suppose we have a small images dataset composed of 4 cats, 4 dogs, and 4 ducks. These images are all in the ```animal_dataset/images``` folder. Below we show our image dataset folder structure.
 
 ![Alt-text](readme_images/dataset.png)
 
