@@ -1,10 +1,10 @@
 # Image Classification Labeling Tool
 
-This tool is useful for preparing an image dataset for a classification task - it can speed up the labeling process. It 
+The image classification tool we present here is useful for preparing an image dataset for a classification task - it can speed up the labeling process. It 
 shows all images in a folder and according to the key that the user presses, it copies or moves the image to another 
-folder. In the end, all images will be separated in folders by classes. 
+folder. In the end, all images will be separated into folders by classes. 
 
-**Note:** this tool does not support multi-classes.
+**Note:** This tool does not support multi-classes.
 
 ### Usage
 
