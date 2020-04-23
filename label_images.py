@@ -11,16 +11,15 @@ from shutil import copyfile, move
 
 
 def label_images(image_folder, keys, folder_names, output_folder, screen_factor, delete):
-    """Labels all images in a folder and copies them to respective folders according to user input. It also produces
-    a csv file with the labels of the images.
+    """Labels all images in a folder and copies them to respective folders according to user input. 
 
     Args:
         image_folder (str): path to the folder containing the images to be labeled
-        keys (list): list of shortcuts that the user will input to label images
+        keys (list): list of keys that the user will input to label images
         folder_names (list): list of the name of the folders corresponding to the labels
         output_folder (str): path to the folder on which to store labeled images
         screen_factor (float): percentage of the screen that the image will occupy in case it is too big
-        delete (bool): indicates whether or not to delete original image in image folder
+        delete (bool): indicates whether or not to delete the original images
     """
 
     # Create all folders
@@ -45,7 +44,6 @@ def label_images(image_folder, keys, folder_names, output_folder, screen_factor,
 
 def show_image(img_path, img_name, screen_factor):
     """Shows input image to fit the screen.
-    Source: https://enumap.wordpress.com/2019/02/25/python-opencv-resize-image-fit-your-screen/
 
     Args:
         img_path (str): path to the image
